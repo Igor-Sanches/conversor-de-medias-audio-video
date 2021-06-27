@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="spvAmigos.Text" xml:space="preserve">
+    <value>友達を招待する</value>
+  </data>
+  <data name="app" xml:space="preserve">
+    <value>7：UWP用メディアコンバータ</value>
+  </data>
+  <data name="AudioQualidade.Header" xml:space="preserve">
+    <value>オーディオ品質</value>
+  </data>
+  <data name="Auto.Content" xml:space="preserve">
+    <value>オート</value>
+  </data>
+  <data name="AutoPlay.Header" xml:space="preserve">
+    <value>自動再生</value>
+  </data>
+  <data name="AutoPlay.OffContent" xml:space="preserve">
+    <value>無効</value>
+  </data>
+  <data name="AutoPlay.OnContent" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="autos" xml:space="preserve">
+    <value>オート</value>
+  </data>
+  <data name="BarOptions.Content" xml:space="preserve">
+    <value>編集オプションを表示する</value>
+  </data>
+  <data name="BarTitle.Text" xml:space="preserve">
+    <value>7：メディアコンバータ</value>
+  </data>
+  <data name="BoxEditors.Header" xml:space="preserve">
+    <value>エンジンの編集（オーディオ/ビデオ）</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="cancelado" xml:space="preserve">
+    <value>コンバージョンのキャンセル</value>
+  </data>
+  <data name="cancelamento" xml:space="preserve">
+    <value>キャンセルは正常に完了しました！</value>
+  </data>
+  <data name="comandos" xml:space="preserve">
+    <value>コマンドキー</value>
+  </data>
+  <data name="spvComandos.Text" xml:space="preserve">
+    <value>コマンド</value>
+  </data>
+  <data name="Conversao" xml:space="preserve">
+    <value>変換</value>
+  </data>
+  <data name="Convertido" xml:space="preserve">
+    <value>変換された</value>
+  </data>
+  <data name="convertidoAs" xml:space="preserve">
+    <value>ザ</value>
+  </data>
+  <data name="convertidoCancelado" xml:space="preserve">
+    <value>キャンセルされました</value>
+  </data>
+  <data name="convertidoDe" xml:space="preserve">
+    <value>〜から</value>
+  </data>
+  <data name="convertidoEm" xml:space="preserve">
+    <value>変換済み</value>
+  </data>
+  <data name="convertidoFalha" xml:space="preserve">
+    <value>失敗</value>
+  </data>
+  <data name="convertidoPara" xml:space="preserve">
+    <value>〜へ</value>
+  </data>
+  <data name="cvtOption.Header" xml:space="preserve">
+    <value>MrfCrf444で変換</value>
+  </data>
+  <data name="cvtOption.OffContent" xml:space="preserve">
+    <value>無効</value>
+  </data>
+  <data name="cvtOption.OnContent" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="DataCriacao.Text" xml:space="preserve">
+    <value>作成日</value>
+  </data>
+  <data name="DefaultEditor.Content" xml:space="preserve">
+    <value>デフォルトのエディタ</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>7：メディアコンバータ</value>
+  </data>
+  <data name="EntCorte.Text" xml:space="preserve">
+    <value>カットの終わり</value>
+  </data>
+  <data name="Exfalha" xml:space="preserve">
+    <value>予期しない障害</value>
+  </data>
+  <data name="F1" xml:space="preserve">
+    <value>Ctrl + F1キー=新しいファイルを検索する</value>
+  </data>
+  <data name="F2" xml:space="preserve">
+    <value>Ctrl + F2キー=保存して変換する</value>
+  </data>
+  <data name="F3" xml:space="preserve">
+    <value>キーCtrl + F3 =編集オプションを表示する</value>
+  </data>
+  <data name="F4" xml:space="preserve">
+    <value>キーCtrl + F4 =通知をオンまたはオフにする</value>
+  </data>
+  <data name="F5" xml:space="preserve">
+    <value>Ctrl + F5 =モダンエディタ</value>
+  </data>
+  <data name="F6" xml:space="preserve">
+    <value>キーCtrl + F6 =ダイナミックライブタイルを有効にする</value>
+  </data>
+  <data name="F7" xml:space="preserve">
+    <value>Ctrl + F7キー=共有</value>
+  </data>
+  <data name="falha" xml:space="preserve">
+    <value>変換できませんでした</value>
+  </data>
+  <data name="falha2" xml:space="preserve">
+    <value>予期しない障害</value>
+  </data>
+  <data name="Formatos.Text" xml:space="preserve">
+    <value>サポートされているフォーマット</value>
+  </data>
+  <data name="spvAbout.Text" xml:space="preserve">
+    <value>Wikiについて</value>
+  </data>
+  <data name="spvInicio.Text" xml:space="preserve">
+    <value>ホーム|</value>
+  </data>
+  <data name="lgmArabe.Text" xml:space="preserve">
+    <value>アラビア語</value>
+  </data>
+  <data name="lgmChinesS.Text" xml:space="preserve">
+    <value>中国語（簡体字）</value>
+  </data>
+  <data name="lgmChinesT.Text" xml:space="preserve">
+    <value>中国語（繁体字）</value>
+  </data>
+  <data name="lgmSpanhol.Text" xml:space="preserve">
+    <value>フランス語</value>
+  </data>
+  <data name="lgmFrances.Text" xml:space="preserve">
+    <value>アメリカ合衆国</value>
+  </data>
+  <data name="lgIdiomaPadrao.Content" xml:space="preserve">
+    <value>システムによって定義される</value>
+  </data>
+  <data name="lgmIngles.Text" xml:space="preserve">
+    <value>英語</value>
+  </data>
+  <data name="lgmItalia.Text" xml:space="preserve">
+    <value>イタリア語</value>
+  </data>
+  <data name="lgmJapao.Text" xml:space="preserve">
+    <value>日本語</value>
+  </data>
+  <data name="lgmBrasil.Text" xml:space="preserve">
+    <value>ホーム</value>
+  </data>
+  <data name="lgmViatinam.Text" xml:space="preserve">
+    <value>ベトナム語</value>
+  </data>
+  <data name="Linguagem.Header" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="mandito" xml:space="preserve">
+    <value>維持</value>
+  </data>
+  <data name="ModernEditor.Content" xml:space="preserve">
+    <value>現代エディタ（ベータ版）</value>
+  </data>
+  <data name="mostrar" xml:space="preserve">
+    <value>編集オプションを表示する</value>
+  </data>
+  <data name="NN.Text" xml:space="preserve">
+    <value>ぬいぐるみ</value>
+  </data>
+  <data name="notiOff.Content" xml:space="preserve">
+    <value>無効</value>
+  </data>
+  <data name="notiOn.Content" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="ocultar" xml:space="preserve">
+    <value>編集オプションを非表示</value>
+  </data>
+  <data name="OptionAudio1.Text" xml:space="preserve">
+    <value>サンプルあたりのビット数</value>
+  </data>
+  <data name="OptionAudio2.Text" xml:space="preserve">
+    <value>サンプルレート</value>
+  </data>
+  <data name="OptionAudio3.Text" xml:space="preserve">
+    <value>ビットレート</value>
+  </data>
+  <data name="OptionAudio4.Text" xml:space="preserve">
+    <value>チャネル数</value>
+  </data>
+  <data name="OptionsVideo1.Text" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="OptionsVideo2.Text" xml:space="preserve">
+    <value>高さ</value>
+  </data>
+  <data name="OptionsVideo3.Text" xml:space="preserve">
+    <value>ビットレート</value>
+  </data>
+  <data name="OptionsVideo4.Text" xml:space="preserve">
+    <value>フレームレート</value>
+  </data>
+  <data name="originalFormat" xml:space="preserve">
+    <value>元の形式</value>
+  </data>
+  <data name="progresso" xml:space="preserve">
+    <value>進捗状況</value>
+  </data>
+  <data name="Resolucao.Text" xml:space="preserve">
+    <value>解像度</value>
+  </data>
+  <data name="salvaem" xml:space="preserve">
+    <value>保存先</value>
+  </data>
+  <data name="salvo" xml:space="preserve">
+    <value>コンバージョンを正常に保存しました</value>
+  </data>
+  <data name="salvoem" xml:space="preserve">
+    <value>保存先</value>
+  </data>
+  <data name="Settings.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="spvSettings.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="spvShare.Text" xml:space="preserve">
+    <value>これを共有する</value>
+  </data>
+  <data name="sms" xml:space="preserve">
+    <value>最適なコンバータを使用して、7：Media Converterを使用してください</value>
+  </data>
+  <data name="sobre" xml:space="preserve">
+    <value>Dev: Igor Sanches</value>
+  </data>
+  <data name="sobreText" xml:space="preserve">
+    <value>7：Media ConverterはWindows 10ユーザー用に設計されたアプリケーションで、アプリケーションはUniversalで、7種類のメディアをサポートしています</value>
+  </data>
+  <data name="StartCorte.Text" xml:space="preserve">
+    <value>切断開始</value>
+  </data>
+  <data name="TargetFormat.Header" xml:space="preserve">
+    <value>選択フォーム</value>
+  </data>
+  <data name="tclsAtalho.Header" xml:space="preserve">
+    <value>コマンド</value>
+  </data>
+  <data name="tclsAtalho.OffContent" xml:space="preserve">
+    <value>無効</value>
+  </data>
+  <data name="tclsAtalho.OnContent" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="textContent" xml:space="preserve">
+    <value>デバイスを再起動する必要があります。</value>
+  </data>
+  <data name="textLabel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="textLabel0" xml:space="preserve">
+    <value>リセット</value>
+  </data>
+  <data name="Tile.Header" xml:space="preserve">
+    <value>ライブタイルダイナミクス</value>
+  </data>
+  <data name="Tile.OffContent" xml:space="preserve">
+    <value>無効</value>
+  </data>
+  <data name="Tile.OnContent" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="versaoText" xml:space="preserve">
+    <value>リリース日：</value>
+  </data>
+  <data name="VideoOption.Header" xml:space="preserve">
+    <value>ビデオ品質</value>
+  </data>
+  <data name="BemVindo.Text" xml:space="preserve">
+    <value>ようこそ7：Media ConverterユニバーサルWindowsでデバイスのメディアを変換するために作成されたアプリケーションで、アプリケーションは10言語で利用できます</value>
+  </data>
+  <data name="Finalizar.Content" xml:space="preserve">
+    <value>フィニッシュ</value>
+  </data>
+  <data name="lgmRussia.Text" xml:space="preserve">
+    <value>ロシア語</value>
+  </data>
+  <data name="Proximo.Content" xml:space="preserve">
+    <value>次へ</value>
+  </data>
+  <data name="SobreOsuporte.Text" xml:space="preserve">
+    <value>このアプリケーションは、HD1080、HD720、Wvga、vga、Qvgaの低品質、中品質、高品質のオーディオメディアやビデオメディアなどの7種類のメディアをサポートしています。サポートを与える</value>
+  </data>
+  <data name="Suppot.Text" xml:space="preserve">
+    <value>サポートについて</value>
+  </data>
+  <data name="TituloBemVindo.Text" xml:space="preserve">
+    <value>7：メディアコンバータ</value>
+  </data>
+  <data name="Welcone.Text" xml:space="preserve">
+    <value>あなたがすでに完了しているアプリケーションについて少し知っているので</value>
+  </data>
+  <data name="WelconFinal.Text" xml:space="preserve">
+    <value>入る準備ができました</value>
+  </data>
+  <data name="mscAlbum.Text" xml:space="preserve">
+    <value>アルバム</value>
+  </data>
+  <data name="mscAlbumPlaceholderText.PlaceholderText" xml:space="preserve">
+    <value>ここにアルバムを入力してください</value>
+  </data>
+  <data name="mscArtista.Text" xml:space="preserve">
+    <value>アーティスト</value>
+  </data>
+  <data name="mscArtistaA.Text" xml:space="preserve">
+    <value>アルバムのアーティスト</value>
+  </data>
+  <data name="mscArtistaAPlaceholderText.PlaceholderText" xml:space="preserve">
+    <value>ここにアルバムのアーティストを掘りなさい</value>
+  </data>
+  <data name="mscArtistaPlaceholderText.PlaceholderText" xml:space="preserve">
+    <value>ここにアーティストを掘る</value>
+  </data>
+  <data name="mscTitulo.Text" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="mscTituloPlaceholderText.PlaceholderText" xml:space="preserve">
+    <value>ここにタイトルを入力してください</value>
+  </data>
+  <data name="TileName" xml:space="preserve">
+    <value>コンバータ</value>
+  </data>
+  <data name="tag.Text" xml:space="preserve">
+    <value>タグエディタ</value>
+  </data>
+  <data name="spvApoio.Text" xml:space="preserve">
+    <value>PayPalによるサポート</value>
+  </data>
+</root>

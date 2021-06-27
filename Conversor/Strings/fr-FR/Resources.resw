@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="spvAmigos.Text" xml:space="preserve">
+    <value>Inviter des amis</value>
+  </data>
+  <data name="app" xml:space="preserve">
+    <value>7: Convertisseur de Média pour UWP</value>
+  </data>
+  <data name="AudioQualidade.Header" xml:space="preserve">
+    <value>Qualité audio</value>
+  </data>
+  <data name="Auto.Content" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="AutoPlay.Header" xml:space="preserve">
+    <value>Lecture automatique</value>
+  </data>
+  <data name="AutoPlay.OffContent" xml:space="preserve">
+    <value>Désactivé</value>
+  </data>
+  <data name="AutoPlay.OnContent" xml:space="preserve">
+    <value>Activé</value>
+  </data>
+  <data name="autos" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="BarOptions.Content" xml:space="preserve">
+    <value>Afficher les options d'édition</value>
+  </data>
+  <data name="BarTitle.Text" xml:space="preserve">
+    <value>7: Convertisseur de Média</value>
+  </data>
+  <data name="BoxEditors.Header" xml:space="preserve">
+    <value>Modifier le moteur (audio / vidéo)</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="cancelado" xml:space="preserve">
+    <value>Conversion annulée</value>
+  </data>
+  <data name="cancelamento" xml:space="preserve">
+    <value>L'annulation a eu lieu avec succès!</value>
+  </data>
+  <data name="comandos" xml:space="preserve">
+    <value>Clés de commandes</value>
+  </data>
+  <data name="spvComandos.Text" xml:space="preserve">
+    <value>Commandes</value>
+  </data>
+  <data name="Conversao" xml:space="preserve">
+    <value>Conversion</value>
+  </data>
+  <data name="Convertido" xml:space="preserve">
+    <value>Converti en</value>
+  </data>
+  <data name="convertidoAs" xml:space="preserve">
+    <value>Le</value>
+  </data>
+  <data name="convertidoCancelado" xml:space="preserve">
+    <value>A été annulé</value>
+  </data>
+  <data name="convertidoDe" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="convertidoEm" xml:space="preserve">
+    <value>Converti en</value>
+  </data>
+  <data name="convertidoFalha" xml:space="preserve">
+    <value>Échec</value>
+  </data>
+  <data name="convertidoPara" xml:space="preserve">
+    <value>à</value>
+  </data>
+  <data name="cvtOption.Header" xml:space="preserve">
+    <value>Convertir avec MrfCrf444</value>
+  </data>
+  <data name="cvtOption.OffContent" xml:space="preserve">
+    <value>Désactivé</value>
+  </data>
+  <data name="cvtOption.OnContent" xml:space="preserve">
+    <value>Activé</value>
+  </data>
+  <data name="DataCriacao.Text" xml:space="preserve">
+    <value>Date de création</value>
+  </data>
+  <data name="DefaultEditor.Content" xml:space="preserve">
+    <value>Éditeur par défaut</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>7: Convertisseur de Média</value>
+  </data>
+  <data name="EntCorte.Text" xml:space="preserve">
+    <value>Fin de coupe</value>
+  </data>
+  <data name="Exfalha" xml:space="preserve">
+    <value>Échec inattendu</value>
+  </data>
+  <data name="F1" xml:space="preserve">
+    <value>Ctrl + F1 key = Recherche de nouveau fichier</value>
+  </data>
+  <data name="F2" xml:space="preserve">
+    <value>Ctrl + F2 key = Enregistrer et convertir</value>
+  </data>
+  <data name="F3" xml:space="preserve">
+    <value>Touche Ctrl + F3 = Afficher les options d'édition</value>
+  </data>
+  <data name="F4" xml:space="preserve">
+    <value>Ctrl + F4 key = Activer et désactiver les notifications</value>
+  </data>
+  <data name="F5" xml:space="preserve">
+    <value>Ctrl + F5 = Éditeur moderne</value>
+  </data>
+  <data name="F6" xml:space="preserve">
+    <value>Touche Ctrl + F6 = Activer les vignettes dynamiques dynamiques</value>
+  </data>
+  <data name="F7" xml:space="preserve">
+    <value>Ctrl + F7 key = Partager</value>
+  </data>
+  <data name="falha" xml:space="preserve">
+    <value>Échec de la conversion</value>
+  </data>
+  <data name="falha2" xml:space="preserve">
+    <value>Échec inattendu</value>
+  </data>
+  <data name="Formatos.Text" xml:space="preserve">
+    <value>Formats pris en charge</value>
+  </data>
+  <data name="spvAbout.Text" xml:space="preserve">
+    <value>À propos de Wiki</value>
+  </data>
+  <data name="spvInicio.Text" xml:space="preserve">
+    <value>Accueil |</value>
+  </data>
+  <data name="lgmArabe.Text" xml:space="preserve">
+    <value>Arabe</value>
+  </data>
+  <data name="lgmChinesS.Text" xml:space="preserve">
+    <value>Chinois (Simplifié)</value>
+  </data>
+  <data name="lgmChinesT.Text" xml:space="preserve">
+    <value>Chinois (Traditionnel)</value>
+  </data>
+  <data name="lgmSpanhol.Text" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="lgmFrances.Text" xml:space="preserve">
+    <value>États-Unis</value>
+  </data>
+  <data name="lgIdiomaPadrao.Content" xml:space="preserve">
+    <value>Défini par le système</value>
+  </data>
+  <data name="lgmIngles.Text" xml:space="preserve">
+    <value>Anglais</value>
+  </data>
+  <data name="lgmItalia.Text" xml:space="preserve">
+    <value>Italien</value>
+  </data>
+  <data name="lgmJapao.Text" xml:space="preserve">
+    <value>Japonais</value>
+  </data>
+  <data name="lgmBrasil.Text" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="lgmViatinam.Text" xml:space="preserve">
+    <value>Vietnamien</value>
+  </data>
+  <data name="Linguagem.Header" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="mandito" xml:space="preserve">
+    <value>Conservé</value>
+  </data>
+  <data name="ModernEditor.Content" xml:space="preserve">
+    <value>Éditeur moderne (Bêta)</value>
+  </data>
+  <data name="mostrar" xml:space="preserve">
+    <value>Afficher les options d'édition</value>
+  </data>
+  <data name="NN.Text" xml:space="preserve">
+    <value>Notifications Plush</value>
+  </data>
+  <data name="notiOff.Content" xml:space="preserve">
+    <value>Désactivé</value>
+  </data>
+  <data name="notiOn.Content" xml:space="preserve">
+    <value>Activé</value>
+  </data>
+  <data name="ocultar" xml:space="preserve">
+    <value>Masquer les options d'édition</value>
+  </data>
+  <data name="OptionAudio1.Text" xml:space="preserve">
+    <value>Bits par échantillon</value>
+  </data>
+  <data name="OptionAudio2.Text" xml:space="preserve">
+    <value>Taux d'échantillonnage</value>
+  </data>
+  <data name="OptionAudio3.Text" xml:space="preserve">
+    <value>Débit</value>
+  </data>
+  <data name="OptionAudio4.Text" xml:space="preserve">
+    <value>Channel Count</value>
+  </data>
+  <data name="OptionsVideo1.Text" xml:space="preserve">
+    <value>Largeur</value>
+  </data>
+  <data name="OptionsVideo2.Text" xml:space="preserve">
+    <value>Hauteur</value>
+  </data>
+  <data name="OptionsVideo3.Text" xml:space="preserve">
+    <value>Débit</value>
+  </data>
+  <data name="OptionsVideo4.Text" xml:space="preserve">
+    <value>Taux de trame</value>
+  </data>
+  <data name="originalFormat" xml:space="preserve">
+    <value>Format original</value>
+  </data>
+  <data name="progresso" xml:space="preserve">
+    <value>Progrès dans</value>
+  </data>
+  <data name="Resolucao.Text" xml:space="preserve">
+    <value>Résolution</value>
+  </data>
+  <data name="salvaem" xml:space="preserve">
+    <value>Enregistrer dans</value>
+  </data>
+  <data name="salvo" xml:space="preserve">
+    <value>Conversion enregistrée avec succès!</value>
+  </data>
+  <data name="salvoem" xml:space="preserve">
+    <value>Enregistrer dans</value>
+  </data>
+  <data name="Settings.Text" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="spvSettings.Text" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="spvShare.Text" xml:space="preserve">
+    <value>Partagez ça</value>
+  </data>
+  <data name="sms" xml:space="preserve">
+    <value>Venez et utilisez le meilleur convertisseur le 7: Media Converter</value>
+  </data>
+  <data name="sobre" xml:space="preserve">
+    <value>Dev: Igor Sanches</value>
+  </data>
+  <data name="sobreText" xml:space="preserve">
+    <value>Le 7: Media Converter est une application conçue pour les utilisateurs de Windows 10, l'application est universelle et prend en charge 7 types de médias</value>
+  </data>
+  <data name="StartCorte.Text" xml:space="preserve">
+    <value>Début de coupe</value>
+  </data>
+  <data name="TargetFormat.Header" xml:space="preserve">
+    <value>Sélectionnez format</value>
+  </data>
+  <data name="tclsAtalho.Header" xml:space="preserve">
+    <value>Commandes</value>
+  </data>
+  <data name="tclsAtalho.OffContent" xml:space="preserve">
+    <value>Désactivé</value>
+  </data>
+  <data name="tclsAtalho.OnContent" xml:space="preserve">
+    <value>Activé</value>
+  </data>
+  <data name="textContent" xml:space="preserve">
+    <value>L'appareil doit être redémarré!</value>
+  </data>
+  <data name="textLabel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="textLabel0" xml:space="preserve">
+    <value>Réinitialiser</value>
+  </data>
+  <data name="Tile.Header" xml:space="preserve">
+    <value>Dynamique des carreaux vivants</value>
+  </data>
+  <data name="Tile.OffContent" xml:space="preserve">
+    <value>Désactivé</value>
+  </data>
+  <data name="Tile.OnContent" xml:space="preserve">
+    <value>Activé</value>
+  </data>
+  <data name="versaoText" xml:space="preserve">
+    <value>Date de sortie:</value>
+  </data>
+  <data name="VideoOption.Header" xml:space="preserve">
+    <value>Qualité vidéo</value>
+  </data>
+  <data name="BemVindo.Text" xml:space="preserve">
+    <value>Bienvenue dans 7: Media Converter une application créée pour convertir les médias sur votre appareil avec Universal Windows, l'application est disponible en 10 langues</value>
+  </data>
+  <data name="Finalizar.Content" xml:space="preserve">
+    <value>Terminer</value>
+  </data>
+  <data name="lgmRussia.Text" xml:space="preserve">
+    <value>Russe</value>
+  </data>
+  <data name="Proximo.Content" xml:space="preserve">
+    <value>Suivant</value>
+  </data>
+  <data name="SobreOsuporte.Text" xml:space="preserve">
+    <value>L'application prend en charge 7 types de média tels que les supports audio et vidéo de qualité basse, moyenne et haute en qualités et résolutions en HD1080, HD720, Wvga, vga et Qvga, plus l'option de choisir quel format peut et ne peut pas donner du soutien</value>
+  </data>
+  <data name="Suppot.Text" xml:space="preserve">
+    <value>À propos du support</value>
+  </data>
+  <data name="TituloBemVindo.Text" xml:space="preserve">
+    <value>7: Convertisseur de Média</value>
+  </data>
+  <data name="Welcone.Text" xml:space="preserve">
+    <value>Maintenant que vous en savez déjà un peu plus sur l'application, nous allons terminer</value>
+  </data>
+  <data name="WelconFinal.Text" xml:space="preserve">
+    <value>Prêt à entrer</value>
+  </data>
+  <data name="mscAlbum.Text" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="mscAlbumPlaceholderText.PlaceholderText" xml:space="preserve">
+    <value>Entrez l'album ici</value>
+  </data>
+  <data name="mscArtista.Text" xml:space="preserve">
+    <value>Artiste</value>
+  </data>
+  <data name="mscArtistaA.Text" xml:space="preserve">
+    <value>Artiste de l'album</value>
+  </data>
+  <data name="mscArtistaAPlaceholderText.PlaceholderText" xml:space="preserve">
+    <value>Creusez ici l'artiste de l'album</value>
+  </data>
+  <data name="mscArtistaPlaceholderText.PlaceholderText" xml:space="preserve">
+    <value>Creusez ici l'artiste</value>
+  </data>
+  <data name="mscTitulo.Text" xml:space="preserve">
+    <value>Titre</value>
+  </data>
+  <data name="mscTituloPlaceholderText.PlaceholderText" xml:space="preserve">
+    <value>Entrez le titre ici</value>
+  </data>
+  <data name="TileName" xml:space="preserve">
+    <value>Convertisseur</value>
+  </data>
+  <data name="tag.Text" xml:space="preserve">
+    <value>Tag Editor</value>
+  </data>
+  <data name="spvApoio.Text" xml:space="preserve">
+    <value>Support par PayPal</value>
+  </data>
+</root>

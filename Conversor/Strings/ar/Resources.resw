@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="spvAmigos.Text" xml:space="preserve">
+    <value>دعوة الأصدقاء</value>
+  </data>
+  <data name="app" xml:space="preserve">
+    <value>7: محول وسائل الإعلام ل ووب</value>
+  </data>
+  <data name="AudioQualidade.Header" xml:space="preserve">
+    <value>جودة الصوت</value>
+  </data>
+  <data name="Auto.Content" xml:space="preserve">
+    <value>السيارات</value>
+  </data>
+  <data name="AutoPlay.Header" xml:space="preserve">
+    <value>اللعب التلقائي</value>
+  </data>
+  <data name="AutoPlay.OffContent" xml:space="preserve">
+    <value>معاق</value>
+  </data>
+  <data name="AutoPlay.OnContent" xml:space="preserve">
+    <value>قادر</value>
+  </data>
+  <data name="autos" xml:space="preserve">
+    <value>السيارات</value>
+  </data>
+  <data name="BarOptions.Content" xml:space="preserve">
+    <value>عرض خيارات التعديل</value>
+  </data>
+  <data name="BarTitle.Text" xml:space="preserve">
+    <value>7: تحويل وسائل الإعلام</value>
+  </data>
+  <data name="BoxEditors.Header" xml:space="preserve">
+    <value>تعديل المحرك (الصوت / الفيديو)</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="cancelado" xml:space="preserve">
+    <value>تم إلغاء التحويل</value>
+  </data>
+  <data name="cancelamento" xml:space="preserve">
+    <value>تم الإلغاء بنجاح!</value>
+  </data>
+  <data name="comandos" xml:space="preserve">
+    <value>مفاتيح الأوامر</value>
+  </data>
+  <data name="spvComandos.Text" xml:space="preserve">
+    <value>الأوامر</value>
+  </data>
+  <data name="Conversao" xml:space="preserve">
+    <value>تحويل</value>
+  </data>
+  <data name="Convertido" xml:space="preserve">
+    <value>تم التحويل إلى</value>
+  </data>
+  <data name="convertidoAs" xml:space="preserve">
+    <value>ال</value>
+  </data>
+  <data name="convertidoCancelado" xml:space="preserve">
+    <value>تم إلغاء</value>
+  </data>
+  <data name="convertidoDe" xml:space="preserve">
+    <value>من</value>
+  </data>
+  <data name="convertidoEm" xml:space="preserve">
+    <value>تم تحويلها إلى</value>
+  </data>
+  <data name="convertidoFalha" xml:space="preserve">
+    <value>فشلت</value>
+  </data>
+  <data name="convertidoPara" xml:space="preserve">
+    <value>إلى</value>
+  </data>
+  <data name="cvtOption.Header" xml:space="preserve">
+    <value>تحويل مع MrfCrf444</value>
+  </data>
+  <data name="cvtOption.OffContent" xml:space="preserve">
+    <value>معاق</value>
+  </data>
+  <data name="cvtOption.OnContent" xml:space="preserve">
+    <value>قادر</value>
+  </data>
+  <data name="DataCriacao.Text" xml:space="preserve">
+    <value>تاريخ الإنشاء</value>
+  </data>
+  <data name="DefaultEditor.Content" xml:space="preserve">
+    <value>محرر افتراضي</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>7: تحويل وسائل الإعلام</value>
+  </data>
+  <data name="EntCorte.Text" xml:space="preserve">
+    <value>نهاية قطع</value>
+  </data>
+  <data name="Exfalha" xml:space="preserve">
+    <value>فشل غير متوقع</value>
+  </data>
+  <data name="F1" xml:space="preserve">
+    <value>كترل + F1 كي = البحث عن ملف جديد</value>
+  </data>
+  <data name="F2" xml:space="preserve">
+    <value>مفتاح كترل + F2 = حفظ وتحويل</value>
+  </data>
+  <data name="F3" xml:space="preserve">
+    <value>مفتاح كترل + F3 = عرض خيارات التحرير</value>
+  </data>
+  <data name="F4" xml:space="preserve">
+    <value>كترل + F4 كي = تشغيل الإشعارات وإيقاف تشغيلها</value>
+  </data>
+  <data name="F5" xml:space="preserve">
+    <value>كترل + F5 = محرر حديث</value>
+  </data>
+  <data name="F6" xml:space="preserve">
+    <value>مفتاح كترل + F6 = تمكين ديناميكية لايف البلاط</value>
+  </data>
+  <data name="F7" xml:space="preserve">
+    <value>مفتاح كترل + F7 = شير</value>
+  </data>
+  <data name="falha" xml:space="preserve">
+    <value>أخفق التحويل</value>
+  </data>
+  <data name="falha2" xml:space="preserve">
+    <value>فشل غير متوقع</value>
+  </data>
+  <data name="Formatos.Text" xml:space="preserve">
+    <value>التنسيقات المدعومة</value>
+  </data>
+  <data name="spvAbout.Text" xml:space="preserve">
+    <value>حول ويكي</value>
+  </data>
+  <data name="spvInicio.Text" xml:space="preserve">
+    <value>الصفحة الرئيسية |</value>
+  </data>
+  <data name="lgmArabe.Text" xml:space="preserve">
+    <value>العربية</value>
+  </data>
+  <data name="lgmChinesS.Text" xml:space="preserve">
+    <value>الصينية (المبسطة)</value>
+  </data>
+  <data name="lgmChinesT.Text" xml:space="preserve">
+    <value>الصينية (التقليدية)</value>
+  </data>
+  <data name="lgmSpanhol.Text" xml:space="preserve">
+    <value>الأسبانية</value>
+  </data>
+  <data name="lgmFrances.Text" xml:space="preserve">
+    <value>الولايات المتحدة</value>
+  </data>
+  <data name="lgIdiomaPadrao.Content" xml:space="preserve">
+    <value>يحددها النظام</value>
+  </data>
+  <data name="lgmIngles.Text" xml:space="preserve">
+    <value>الإنجليزية</value>
+  </data>
+  <data name="lgmItalia.Text" xml:space="preserve">
+    <value>الإيطالي</value>
+  </data>
+  <data name="lgmJapao.Text" xml:space="preserve">
+    <value>اليابانية</value>
+  </data>
+  <data name="lgmBrasil.Text" xml:space="preserve">
+    <value>البرتغالية</value>
+  </data>
+  <data name="lgmViatinam.Text" xml:space="preserve">
+    <value>الفيتنامية</value>
+  </data>
+  <data name="Linguagem.Header" xml:space="preserve">
+    <value>لغة</value>
+  </data>
+  <data name="mandito" xml:space="preserve">
+    <value>أبقى في</value>
+  </data>
+  <data name="ModernEditor.Content" xml:space="preserve">
+    <value>محرر حديث (تجريبي)</value>
+  </data>
+  <data name="mostrar" xml:space="preserve">
+    <value>عرض خيارات التعديل</value>
+  </data>
+  <data name="NN.Text" xml:space="preserve">
+    <value>الإخطارات أفخم</value>
+  </data>
+  <data name="notiOff.Content" xml:space="preserve">
+    <value>معاق</value>
+  </data>
+  <data name="notiOn.Content" xml:space="preserve">
+    <value>قادر</value>
+  </data>
+  <data name="ocultar" xml:space="preserve">
+    <value>إخفاء خيارات التعديل</value>
+  </data>
+  <data name="OptionAudio1.Text" xml:space="preserve">
+    <value>بت لكل عينة</value>
+  </data>
+  <data name="OptionAudio2.Text" xml:space="preserve">
+    <value>معدل العينة</value>
+  </data>
+  <data name="OptionAudio3.Text" xml:space="preserve">
+    <value>معدل بت</value>
+  </data>
+  <data name="OptionAudio4.Text" xml:space="preserve">
+    <value>عدد القنوات</value>
+  </data>
+  <data name="OptionsVideo1.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="OptionsVideo2.Text" xml:space="preserve">
+    <value>ارتفاع</value>
+  </data>
+  <data name="OptionsVideo3.Text" xml:space="preserve">
+    <value>معدل بت</value>
+  </data>
+  <data name="OptionsVideo4.Text" xml:space="preserve">
+    <value>معدل الإطار</value>
+  </data>
+  <data name="originalFormat" xml:space="preserve">
+    <value>التنسيق الأصلي</value>
+  </data>
+  <data name="progresso" xml:space="preserve">
+    <value>التقدم في</value>
+  </data>
+  <data name="Resolucao.Text" xml:space="preserve">
+    <value>قرار</value>
+  </data>
+  <data name="salvaem" xml:space="preserve">
+    <value>حفظ إلى</value>
+  </data>
+  <data name="salvo" xml:space="preserve">
+    <value>تم حفظ التحويل بنجاح!</value>
+  </data>
+  <data name="salvoem" xml:space="preserve">
+    <value>حفظ إلى</value>
+  </data>
+  <data name="Settings.Text" xml:space="preserve">
+    <value>إعدادات</value>
+  </data>
+  <data name="spvSettings.Text" xml:space="preserve">
+    <value>إعدادات</value>
+  </data>
+  <data name="spvShare.Text" xml:space="preserve">
+    <value>مشاركة هذا</value>
+  </data>
+  <data name="sms" xml:space="preserve">
+    <value>تعال واستخدام أفضل تحويل 7: تحويل وسائل الإعلام</value>
+  </data>
+  <data name="sobre" xml:space="preserve">
+    <value>Dev: Igor Sanches</value>
+  </data>
+  <data name="sobreText" xml:space="preserve">
+    <value>7: تحويل وسائل الإعلام هو تطبيق صمم لمستخدمي ويندوز 10، وتطبيق عالمي ويدعم 7 أنواع من وسائل الإعلام</value>
+  </data>
+  <data name="StartCorte.Text" xml:space="preserve">
+    <value>بدء القطع</value>
+  </data>
+  <data name="TargetFormat.Header" xml:space="preserve">
+    <value>حدد شكل</value>
+  </data>
+  <data name="tclsAtalho.Header" xml:space="preserve">
+    <value>الأوامر</value>
+  </data>
+  <data name="tclsAtalho.OffContent" xml:space="preserve">
+    <value>معاق</value>
+  </data>
+  <data name="tclsAtalho.OnContent" xml:space="preserve">
+    <value>قادر</value>
+  </data>
+  <data name="textContent" xml:space="preserve">
+    <value>يجب إعادة تشغيل الجهاز!</value>
+  </data>
+  <data name="textLabel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="textLabel0" xml:space="preserve">
+    <value>إعادة تشغيل</value>
+  </data>
+  <data name="Tile.Header" xml:space="preserve">
+    <value>ديناميات البلاط الحية</value>
+  </data>
+  <data name="Tile.OffContent" xml:space="preserve">
+    <value>معاق</value>
+  </data>
+  <data name="Tile.OnContent" xml:space="preserve">
+    <value>قادر</value>
+  </data>
+  <data name="versaoText" xml:space="preserve">
+    <value>تاريخ الإصدار:</value>
+  </data>
+  <data name="VideoOption.Header" xml:space="preserve">
+    <value>جودة الفيديو</value>
+  </data>
+  <data name="BemVindo.Text" xml:space="preserve">
+    <value>مرحبا بكم في 7: تحويل وسائل الإعلام تطبيق تم إنشاؤه لتحويل وسائل الإعلام على جهازك مع ويندوز العالمي، التطبيق متاح في 10 لغة</value>
+  </data>
+  <data name="Finalizar.Content" xml:space="preserve">
+    <value>نهاية</value>
+  </data>
+  <data name="lgmRussia.Text" xml:space="preserve">
+    <value>الروسية</value>
+  </data>
+  <data name="Proximo.Content" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+  <data name="SobreOsuporte.Text" xml:space="preserve">
+    <value>تطبيق يدعم 7 أنواع وسائل الإعلام مثل وسائل الإعلام السمعية وسائل الإعلام والفيديو منخفضة ومتوسطة وعالية الجودة في الصفات والقرارات في HD1080، HD720، وفغا، فغا و كفغا، بالإضافة إلى خيار لاختيار أي شكل يمكن ولا يمكن أن تقديم الدعم</value>
+  </data>
+  <data name="Suppot.Text" xml:space="preserve">
+    <value>حول الدعم</value>
+  </data>
+  <data name="TituloBemVindo.Text" xml:space="preserve">
+    <value>7: تحويل وسائل الإعلام</value>
+  </data>
+  <data name="Welcone.Text" xml:space="preserve">
+    <value>الآن أن كنت تعرف بالفعل قليلا عن التطبيق سننتهي</value>
+  </data>
+  <data name="WelconFinal.Text" xml:space="preserve">
+    <value>جاهز للدخول</value>
+  </data>
+  <data name="mscAlbum.Text" xml:space="preserve">
+    <value>الألبوم</value>
+  </data>
+  <data name="mscAlbumPlaceholderText.PlaceholderText" xml:space="preserve">
+    <value>أدخل الألبوم هنا</value>
+  </data>
+  <data name="mscArtista.Text" xml:space="preserve">
+    <value>فنان</value>
+  </data>
+  <data name="mscArtistaA.Text" xml:space="preserve">
+    <value>فنان الألبوم</value>
+  </data>
+  <data name="mscArtistaAPlaceholderText.PlaceholderText" xml:space="preserve">
+    <value>حفر هنا الفنان من الألبوم</value>
+  </data>
+  <data name="mscArtistaPlaceholderText.PlaceholderText" xml:space="preserve">
+    <value>حفر هنا الفنان</value>
+  </data>
+  <data name="mscTitulo.Text" xml:space="preserve">
+    <value>لقب</value>
+  </data>
+  <data name="mscTituloPlaceholderText.PlaceholderText" xml:space="preserve">
+    <value>أدخل العنوان هنا</value>
+  </data>
+  <data name="TileName" xml:space="preserve">
+    <value>محول</value>
+  </data>
+  <data name="tag.Text" xml:space="preserve">
+    <value>محرر العلامات</value>
+  </data>
+  <data name="spvApoio.Text" xml:space="preserve">
+    <value>الدعم عن طريق باي بال</value>
+  </data>
+</root>
